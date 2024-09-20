@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Euphemia;
+  src: url(../public/Fonts/EuphemiaUCASRegular2.6.6.ttf);
+}
+
+@font-face {
+  font-family: Euphemia;
+  font-weight: bold;
+  src: url(../public/Fonts/EuphemiaUCASBold2.6.6.ttf);
+}
+
+:root {
+  font-family: Euphemia, sans-serif;
+  line-height: 1.5;
+
+  background-color: #0a0a0a;
+  color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
